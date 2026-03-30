@@ -30,7 +30,21 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="0b51ca21-46d0-4167-855b-37d379b1e694">
-      <console name="Customer Management" type="STANDARD" schema="mysql" session="Main" />
+      <console name="Customer Management" type="STANDARD" schema="customermanagement" session="Main"><![CDATA[INSERT INTO customers (customer_name, email, phone, address) VALUES ('Arjun Reddy', 'arjun.reddy@gmail.com', 9876543210, 'Hyderabad, TG');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Priya Sharma', 'priya.s@outlook.com', 9123456789, 'Bangalore, KA');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Rahul Verma', 'rahul.v@yahoo.com', 8887776665, 'Delhi, DL');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Ananya Iyer', 'ananya.i@icloud.com', 7776665554, 'Chennai, TN');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Vikram Singh', 'v.singh@gmail.com', 9900881122, 'Mumbai, MH');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Sneha Patil', 'sneha.p@gmail.com', 8100223344, 'Pune, MH');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Amit Das', 'amit.das@proton.me', 7001122334, 'Kolkata, WB');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Kavita Nair', 'kavita.n@gmail.com', 9555666777, 'Kochi, KL');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Sandeep Gill', 's.gill@outlook.com', 8444333221, 'Chandigarh, PB');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Megha Gupta', 'megha.g@gmail.com', 7333222110, 'Jaipur, RJ');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Rohan Joshi', 'rohan.j@gmail.com', 9222111000, 'Ahmedabad, GJ');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Ishita Sen', 'ishita.s@yahoo.com', 8111000999, 'Kolkata, WB');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Deepak Kumar', 'deepak.k@gmail.com', 7000999888, 'Patna, BR');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Swati Bose', 'swati.b@gmail.com', 9888777666, 'Bhubaneswar, OR');
+INSERT INTO customers (customer_name, email, phone, address) VALUES ('Manoj Tiwari', 'manoj.t@outlook.com', 8777666555, 'Lucknow, UP');]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -38,6 +52,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
+      <object connection-id="0b51ca21-46d0-4167-855b-37d379b1e694" object-ref="consoles/Customer Management" />
       <object connection-id="0b51ca21-46d0-4167-855b-37d379b1e694" object-ref="schemas/customermanagement/tables/customers" />
     </open-files>
   </component>
@@ -54,9 +69,17 @@
       </filter>
     </filter-actions>
   </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces>
+      <mapping database-type="MYSQL" interface-id="DEFAULT" />
+    </recently-used-interfaces>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
@@ -613,5 +636,9 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+    <execution-variable-types />
   </component>
 </project>

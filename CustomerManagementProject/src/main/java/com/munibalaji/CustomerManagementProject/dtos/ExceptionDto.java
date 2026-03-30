@@ -11,7 +11,7 @@ public class ExceptionDto {
     private final int status;
     private final String error;
     private final String message;
-    private LocalDateTime timestamp;
+    private final LocalDateTime timestamp;
 
     public ExceptionDto(HttpStatus httpStatus, String message){
 
